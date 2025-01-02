@@ -6,6 +6,11 @@
  <li>HTML - Para estrutura e marcação dos elementos da página</li>
 <li>CSS - Para criação de folhas de estilo em cascata</li>
 <li>Figma - Para prototipagem do projeto</li>
+<li>Usamos media queries para criar layouts responsivos </li>
+<li>Aplicamos técnicas de layout fluido com medidas flexíveis </li>
+<li>Implementamos imagens responsivas usando srcset </li>
+<li>Entendemos como flexbox e grid podem ajudar na construção de layout fluido </li>
+<li>Testes e ajuste a responsividade do layout</li>
 <br>
 <h3>🛠️ Abrir e rodar o projeto </h3>
 <p>Para executar o projeto em seu ambiente local, siga estas etapas: </p>
@@ -17,3 +22,5 @@
 
 <li>Abra o arquivo index.html no seu navegador, iniciando assim o projeto localmente</li>
 </ul>
+<br>
+<p>url: https://vitoriafmachado.github.io/alura-start/</p>
