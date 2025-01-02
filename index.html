@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/reset-css@5.0.2/reset.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@200;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Alura Start</title>
+    <link rel="stylesheet" href="./estilos.css" />
+  </head>
+  <body>
+    <header class="container">
+      <div class="cabecalho">
+        <nav class="cabecalho__nav">
+          <ul>
+            <li>
+              <a href="#" aria-label="Ir para a página inicial">
+                <img
+                  src="./assets/logo-large.png"
+                  srcset="
+                    ./assets/logo-small.png   74w,
+                    ./assets/logo-medium.png  74w,
+                    ./assets/logo-large.png  139w
+                  "
+                  sizes="(max-width: 360px) 74px, (max-width: 768px) 74px, 139px"
+                  alt=""
+                />
+              </a>
+            </li>
+          </ul>
+          <ul class="cabecalho__lista">
+            <li class="cabecalho__item">
+              <a href="#">Sobre</a>
+            </li>
+            <li class="cabecalho__item">
+              <a href="#">Soluções</a>
+            </li>
+            <li class="cabecalho__item">
+              <a href="#">Metodologia</a>
+            </li>
+            <li class="cabecalho__item">
+              <a href="#">Benefícios</a>
+            </li>
+            <li class="cabecalho__item">
+              <a href="#">Projetos</a>
+            </li>
+            <li class="cabecalho__item">
+              <a href="#">Entrar</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="cabecalho__botoes">
+          <a href="#" class="btn btn__primario">QUERO CONHECER</a>
+          <a href="#" class="btn btn__secundario">ENTRAR</a>
+        </div>
+      </div>
+      <div class="cabecalho__divisor" />
+    </header>
+    <main>
+      <section class="banner">
+        <div class="banner__conteudo container">
+          <div class="banner__texto-principal">
+            <h1 class="banner__titulo">
+              Transforme a vida de seus estudantes por meio da
+              <span>tecnologia.</span>
+            </h1>
+            <p class="banner__descricao">
+              Desenvolva habilidades digitais dos alunos e alunas e deixe sua
+              escola alinhada às novas demandas da BNCC.
+            </p>
+            <a href="#" class="btn btn__primario">QUERO NA MINHA ESCOLA!</a>
+          </div>
+          <div class="banner__imagem">
+            <img
+              src="./assets/imagens/banner.png"
+              alt="Imagem de estudante"
+              class="banner__imagem-img"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="quem-somos container">
+        <div>
+          <img
+            src="./assets/imagens/quem-somos-desktop.png"
+            srcset="
+              ./assets/imagens/quem-somos-mobile.png  299w,
+              ./assets/imagens/quem-somos-desktop.png 530w
+            "
+            sizes="(max-width: 360px) 299px, (max-width: 768px) 299px, 530px"
+            alt="Imagem de estudante sorrindo"
+          />
+        </div>
+        <div class="quem-somos__texto-principal">
+          <p class="subtitulo">_quem somos</p>
+          <h2 class="quem-somos__titulo">
+            Pensamento computacional para estudantes da
+            <span class="quem-somos__titulo-destaque">educação básica</span>
+          </h2>
+          <p class="quem-somos__descricao">
+            Atuamos na formação de estudantes do Ensino Fundamental e Ensino
+            Médio desenvolvendo o <strong>pensamento computacional</strong> e
+            <strong>habilidades digitais</strong> por meio do
+            <strong>ensino de programação</strong> de forma curricular.
+          </p>
+          <a href="#" class="btn btn__primario">QUERO CONHECER</a>
+        </div>
+      </section>
+      <section class="sobre-nos container">
+        <div class="sobre-nos__conteudo">
+          <p class="subtitulo">_sobre nós</p>
+          <h2 class="sobre-nos__titulo">
+            Por que ensinamos através da
+            <span class="sobre-nos__titulo-destaque">programação?</span>
+          </h2>
+        </div>
+        <div class="sobre-nos__beneficios">
+          <div class="sobre-nos__beneficios--card">
+            <img
+              src="./assets/icones/foguete.svg"
+              alt="Ícone de Criatividade"
+            />
+            <h3 class="sobre-nos__titulo-criatividade">Liberdade Criativa</h3>
+            <p>
+              Explore um mundo sem fronteiras: crie e simule ambientes,
+              personagens e ações sem limites físicos.
+            </p>
+          </div>
+          <div class="sobre-nos__beneficios--card">
+            <img
+              src="./assets/icones/computador.svg"
+              alt="Ícone de Acessibilidade"
+            />
+            <h3 class="sobre-nos__titulo-acessibilidade">Material Acessível</h3>
+            <p>
+              Basta um computador ou notebook para desbloquear o mundo da
+              programação.
+            </p>
+          </div>
+          <div class="sobre-nos__beneficios--card">
+            <img src="./assets/icones/ideia.svg" alt="Ícone de Autonomia" />
+            <h3 class="sobre-nos__titulo-autonomia">Autonomia</h3>
+            <p>
+              O estudante no centro, como criador e dono de sua obra, acessível
+              de qualquer lugar.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="nosso-impacto">
+        <div class="container">
+          <div class="nosso-impacto__conteudo">
+            <p class="subtitulo">_sobre nós</p>
+            <h2 class="nosso-impacto__titulo">
+              Nosso impacto
+              <br /><span>em números</span><br />
+            </h2>
+          </div>
+          <div class="nosso-impacto__estatisticas">
+            <div class="nosso-impacto__estatistica impacto-estudantes">
+              <img src="./assets/icones/perfil.svg" alt="" />
+              <h3>+2.8 milhões</h3>
+              <p>Estudantes</p>
+            </div>
+            <div class="nosso-impacto__estatistica impacto-professores">
+              <img src="./assets/icones/palestra.svg" alt="" />
+              <h3>+14 mil</h3>
+              <p>Professores e Professoras</p>
+            </div>
+            <div class="nosso-impacto__estatistica impacto-escolas">
+              <img src="./assets/icones/escola.svg" alt="" />
+              <h3>+7 mil</h3>
+              <p>Escolas</p>
+            </div>
+          </div>
+        </div>
+        <img
+          src="./assets/imagens/detalhe-triangulo.svg"
+          class="nosso-impacto__detalhe"
+        />
+      </section>
+      <section class="vantagens">
+        <div class="container">
+          <div class="vantagens__conteudo">
+            <div class="vantagens__textos">
+              <p class="subtitulo">_metodologia</p>
+              <h2 class="vantagens__titulo">
+                Vantagens do uso da
+                <span class="vantagens__titulo-destaque">programação</span>
+              </h2>
+              <p class="vantagens__descricao">
+                A Alura Start tem como método didático provocar nossos
+                estudantes a pensar. Acreditamos que a melhor maneira de fazer
+                isso é contextualizando os conteúdos, trazendo problemas e casos
+                reais que nossos alunos e alunas poderão realmente encontrar em
+                seu dia a dia.
+              </p>
+            </div>
+            <img
+              src="./assets/imagens/vantagens-desktop.svg"
+              srcset="
+                ./assets/imagens/vantagens-mobile.svg  321w,
+                ./assets/imagens/vantagens-tablet.svg  332w,
+                ./assets/imagens/vantagens-desktop.svg 594w
+              "
+              sizes="(max-width: 360px) 321px, (max-width: 768px) 332px, 594px"
+              alt="diagrama de Metodologia"
+            />
+          </div>
+          <a href="#" class="btn btn__secundario"
+            >SABER MAIS SOBRE NOSSA METODOLOGIA</a
+          >
+        </div>
+      </section>
+      <section class="projetos">
+        <img
+          src="./assets/imagens/detalhe-triangulo.svg"
+          alt="Detalhe triângulo"
+          class="projetos__detalhe-triangulo"
+        />
+        <div class="projetos__conteudo container">
+          <div class="projetos__texto">
+            <p class="subtitulo">_nossos projetos</p>
+            <h2><span>Projetos</span> de estudantes <br />da Alura Start:</h2>
+          </div>
+        </div>
+        <div class="projetos__slider">
+          <div class="projetos__slide">
+            <img
+              src="./assets/imagens/caca-tesouro.png"
+              alt="Imagem do projeto Labirinto: Caça ao Tesouro"
+              class="projetos__imagem"
+            />
+            <h3>Labirinto: Caça ao Tesouro</h3>
+            <div class="projeto__link">
+              <a href="#" class="projetos__botao">Ver projeto</a>
+              <span>Jogo</span>
+            </div>
+          </div>
+          <div class="projetos__slide">
+            <img
+              src="./assets/imagens/hipopotamo-voador.png"
+              alt="Imagem do projeto Hipopótamo Voador"
+              class="projetos__imagem"
+            />
+            <h3>Hipopótamo Voador</h3>
+            <div class="projeto__link">
+              <a href="#" class="projetos__botao">Ver projeto</a>
+              <span>Jogo</span>
+            </div>
+          </div>
+          <div class="projetos__slide">
+            <img
+              src="./assets/imagens/tom-e-jerry.png"
+              alt="Imagem do projeto Tomn e Jerry"
+              class="projetos__imagem"
+            />
+            <h3>Tom e Jerry</h3>
+            <div class="projeto__link">
+              <a href="#" class="projetos__botao">Ver projeto</a>
+              <span>Jogo</span>
+            </div>
+          </div>
+          <div class="projetos__slide">
+            <img
+              src="./assets/imagens/jump-sky.png"
+              alt="Imagem do projeto Jump Sky"
+              class="projetos__imagem"
+            />
+            <h3>Jump sky</h3>
+            <div class="projeto__link">
+              <a href="#" class="projetos__botao">Ver projeto</a>
+              <span>Jogo</span>
+            </div>
+          </div>
+          <div class="projetos__slide">
+            <img
+              src="./assets/imagens/batalha-espacial.png"
+              alt="Imagem do projeto Batalha espacial!"
+              class="projetos__imagem"
+            />
+            <h3>Batalha Alura</h3>
+            <div class="projeto__link">
+              <a href="#" class="projetos__botao">Ver projeto</a>
+              <span>Jogo</span>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn btn__primario">QUERO CONHECER</a>
+        <img
+          src="./assets/imagens/detalhe-retangulo.svg"
+          alt="Detalhe retangulo"
+          class="projetos__detalhe-retangulo"
+        />
+      </section>
+      <section class="orcamento">
+        <div class="container">
+          <div class="orcamento__textos">
+            <img src="./assets/logo-branco.png" alt="Logo alura start" />
+            <p class="subtitulo">_tenha a Alura Start na sua escola</p>
+            <h2 class="orcamento__titulo">
+              Transforme sua escola com nossas
+              <span>soluções inovadoras</span>
+            </h2>
+            <a
+              class="orcamento__link-email"
+              href="mailto:atendimento.alurastart@alura.com.br"
+            >
+              atendimento.alurastart@alura.com.br
+            </a>
+          </div>
+          <form action="#" class="orcamento__formulario">
+            <h3>_solicite um orçamento personalizado</h3>
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="nome">Nome * </label>
+              <input
+                type="text"
+                id="nome"
+                name="nome"
+                placeholder="Informe o seu nome"
+                required
+              />
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="email">E-mail * </label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Informe seu e-mail institucional"
+                required
+              />
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="escola">Escola * </label>
+              <input
+                type="text"
+                id="escola"
+                name="escola"
+                placeholder="Informe o nome da Escola em que trabalha"
+                required
+              />
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="cargo">Cargo * </label>
+              <select
+                id="cargo"
+                name="cargo"
+                class="orcamento__formulario--select"
+                required
+              >
+                <option value="" disabled selected>
+                  Selecione o seu cargo nessa Escola
+                </option>
+                <option value="diretor">Diretor</option>
+                <option value="coordenador">Coordenador</option>
+                <option value="professor">Professor</option>
+              </select>
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="telefone">Telefone com DDD * </label>
+              <input
+                type="tel"
+                id="telefone"
+                name="telefone"
+                placeholder="Informe seu telefone para contato"
+                required
+              />
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="necessidades"
+                >Descreva as necessidades da sua escola *
+              </label>
+              <textarea
+                rows="5"
+                cols="33"
+                id="necessidades"
+                name="necessidades"
+                class="orcamento__formulario--textarea"
+                placeholder="Conte-nos brevemente sobre a quantidade de alunos, interesses e as expectativas da sua escola"
+                required
+              ></textarea>
+            </fieldset>
+
+            <fieldset class="orcamento__formulario--fieldset">
+              <label for="captcha">Quanto é 1 + 11? * </label>
+              <input
+                type="text"
+                id="captcha"
+                name="captcha"
+                placeholder="Informe a resposta"
+                required
+              />
+            </fieldset>
+
+            <button type="submit" class="btn btn__primario">
+              SOLICITAR ORÇAMENTO
+            </button>
+          </form>
+        </div>
+      </section>
+      <footer class="rodape container">
+        <div class="rodape__informacoes">
+          <img src="./assets/logo-large.png" alt="Logo Alura Start" />
+          <p>
+            Alura Start S.A <br />
+            CNPJ 14.608.546/0001-34
+          </p>
+        </div>
+        <div class="rodape__links">
+          <h4>ALURA START</h4>
+          <a href="#" class="rodape__link">Login</a>
+          <a href="#" class="rodape__link">Termos de Uso</a>
+        </div>
+      </footer>
+    </main>
+    <script></script>
+  </body>
+</html>
